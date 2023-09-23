@@ -2,7 +2,8 @@
 
 ## Screenshots
 
-![App Screenshot](https://ibb.co/3pY00Sj)
+![FireShot Capture 031 - Netflix clone - ](https://github.com/Muhammad-Abdullah-13/Netflix-Clone/assets/122008634/7f092273-8eb8-4c83-88a8-6a1bd2531eea)
+
 
 
 # Project Title
