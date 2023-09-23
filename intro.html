@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+        background: linear-gradient(#2c282842, rgba(22, 22, 19, 0.26)), url(gif/Netflix\ Official\ Animation.gif);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation: showGif 3s linear;
+       }
+       
+		/* Animation for showing gif */
+		@keyframes showGif {
+			from { opacity: 0; }
+			to { opacity: 1; }
+		}
+        @media only screen and (max-width: 600px) {
+            body {
+				background-size: contain;
+				animation-duration: 3s;
+			}
+        }
+    
+    </style>
+</head>
+<body>
+    <!-- <img src="gif/Netflix Official Animation.gif" alt=""> -->
+
+    <script>
+		// Function to redirect to page 3
+		function goToPage3() {
+			window.location.href = "slider.html";
+		}
+
+		// Wait for 5 seconds before redirecting to page 3
+		setTimeout(function() {
+			goToPage3();
+		}, 3000);
+	</script>
+
+</body>
+</html>
